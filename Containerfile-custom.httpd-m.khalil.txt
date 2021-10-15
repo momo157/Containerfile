@@ -1,0 +1,4 @@
+FROM quay.io/mohamed157/httpd-khalil-mohamed:latest
+COPY index.html /var/www/html
+LABEL mainteiner="Mohamed Khalil"
+LABEL desccription="Image with html custom"
